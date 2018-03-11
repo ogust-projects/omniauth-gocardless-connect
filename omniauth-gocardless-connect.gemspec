@@ -2,14 +2,12 @@
 require File.expand_path('../lib/omniauth-gocardless-connect/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Isaac Sanders"]
-  gem.email         = ["isaac@isaacbfsanders.com"]
+  gem.authors       = ["Ogust"]
+  gem.email         = ["si.admin@sykio.fr"]
   gem.description   = %q{Gocardless Connect OAuth2 Strategy for OmniAuth 1.0.}
   gem.summary       = %q{
 Supports the OAuth 2.0 server-side and client-side flows.
-Read the Gocardless Connect docs for more details: https://gocardless.com/docs/connect
 }
-  gem.homepage      = "https://gocardless.com/docs/connect"
 
   gem.files         = `git ls-files | grep -v example`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
